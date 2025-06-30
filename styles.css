@@ -7,7 +7,7 @@
 .header h1 img{
     margin-right: 100px;
 }
-.menu-bar ul {
+.menu-bar ol {
     background-color: rgb(16, 197, 79);
     list-style: none;
     display: flex;
