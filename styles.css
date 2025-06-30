@@ -1,0 +1,34 @@
+.header h1 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: rgb(47, 174, 47);
+}
+.header h1 img{
+    margin-right: 100px;
+}
+.menu-bar ul {
+    background-color: rgb(16, 197, 79);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 12px 0px;
+} 
+
+.menu-bar li {
+    margin: 0 40px;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 6px 2px;
+    transition: background-color 0.1s;
+}
+
+.menu-bar a:hover {
+    background-color:rgb(68, 239, 111);
+    border-radius: 4px;
+}
