@@ -19,26 +19,21 @@
     margin: 20px;
     justify-content: center;
 }
-.header-r{
+.header-r button{
+    background-color: red;
     justify-content: center;
     font-size: 14px;
-    color: white;
+    color: yellow;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
     margin-top: 10px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
-.btn-login{
-    background-color: red;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 17px;
-    color: white;
-    margin-top: 10px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+.header-r button:hover{
+    background-color: rgb(57, 162, 242);
 }
 .menu-bar ol {
     background-color: rgb(57, 162, 242);
@@ -53,6 +48,8 @@
 }
 
 .menu-bar a {
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -62,6 +59,7 @@
 }
 
 .menu-bar a:hover {
+    justify-content: center;
     background-color:rgb(113, 189, 247);
     border-radius: 4px;
 }
