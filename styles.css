@@ -19,9 +19,8 @@
     margin: 20px;
     justify-content: center;
 }
-.header-r button{
+.header-r{
     justify-content: center;
-    background-color: rgb(57, 162, 242);
     font-size: 14px;
     color: white;
     margin-top: 10px;
