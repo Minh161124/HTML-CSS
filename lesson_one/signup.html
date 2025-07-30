@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SIGN UP</title>
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+  <div class="wapper">
+    <div class="wapper-heading">
+      <h1>SIGN UP</h1>
+    </div>
+    <form onsubmit="signup(event)">
+      <div class="input_field">
+        <input id="username" type="text" placeholder="User Name" />
+      </div>
+      <div class="input_field">
+        <input id="password" type="password" placeholder="Password" />
+      </div>
+      <div class="input_field">
+        <input id="confirmPassword" type="password" placeholder="Confirm Password" />
+      </div>
+      <button type="submit" class="btn">SIGN UP</button>
+      <a href="login.html" class="signup-link">Already have an account? Login</a>
+    </form>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

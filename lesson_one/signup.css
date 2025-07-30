@@ -1,0 +1,74 @@
+/* Reset và font cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #2980b9, #6dd5fa);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wapper {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+.wapper-heading h1 {
+ text-align: center;
+    margin-bottom: 30px;
+    color: #398cf1;
+    font-style: oblique;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input_field {
+  margin-bottom: 20px;
+}
+
+.input_field input {
+  width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn {
+   width: 100%;
+    padding: 12px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #024ca5;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+}
+
+.btn:hover {
+  background-color: #009de6;
+}
+
+.signup-link {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
